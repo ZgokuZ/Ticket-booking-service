@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.ticketbooking.ticket-booking-service' is invalid and this project uses 'com.ticketbooking.ticket_booking_service' instead.
+* The original package name 'com.ticketbooking.ticket-booking-service' is invalid and this project uses 'com.ticketbooking.ticketBookingService' instead.
 
 # Getting Started
 

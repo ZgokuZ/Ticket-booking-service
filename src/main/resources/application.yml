@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: ticket-booking-service
+
+  actuator:
+    enabled: true
+    path: /actuator
+    health:
+      enabled: true
+      path: /actuator/health
+    info:
+      enabled: true
+      path: /actuator/info
+    metrics:
+      enabled: true
+      path: /actuator/metrics
+    prometheus:
+      enabled: true
+      path: /actuator/prometheus
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: sa
+    max-threadpool-size: 10
+    min-threadpool-size: 5
+
+
